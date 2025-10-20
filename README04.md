@@ -32,6 +32,7 @@ books.append(new)
 print()
 print(books)
 print()
+
 #3.
 print("本データベース:")
 print("1." + books[0]["title"] + " - " + books[0]["author"] + " (" + str(books[0]["year"]) + ") " + "ISBN: " + books[0]["isbn"] + " 価格: " + str(books[0]["price"]) + "円")
